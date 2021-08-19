@@ -1,0 +1,46 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(sea.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ h1 {
+   font-size: 2.5rem;
+   color: #e1e5eb;
+ }
+ hr{
+   background-color: #ff6f47;
+   border-width: 3px;
+   max-width: 65px;
+ }
+.buffer {
+  height: 9rem; 
+}
+ .btn{
+   font-weight: 800;
+   border-radius: 300px;
+ }
+ .btn-primary{
+  background-color: #ff6f47;
+  border-color: #ff6f47;
+ }
+ .btn-primary:hover{
+   background-color : #de532c;
+   border-color: #de532c;
+   transform: scale(1.1);
+ }
+ .btn-xl{
+padding: 1rem 2rem;
+text-transform: uppercase;
+ }
+ .container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
